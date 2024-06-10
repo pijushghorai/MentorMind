@@ -36,6 +36,7 @@ nav {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   position: fixed;
   background-color: #ffffff;
+  z-index: 99;
 }
 
 nav img {
@@ -169,7 +170,7 @@ nav .navigation ul li a:hover {
 
 /* course */
 #course {
-  padding: 5vw 8vw 0 8vw;
+  padding: 5vw 8vw 8vw 8vw;
   text-align: center;
 }
 
@@ -297,4 +298,149 @@ nav .navigation ul li a:hover {
 #registration .form .yellow-btn:hover {
   background-color: #151564;
   color: #ffffff;
+}
+
+/* profile */
+#profiles {
+  padding: 5vw 8vw 6vw 8vw;
+  text-align: center;
+}
+
+#profiles .profile-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+
+#profiles .profile-box .profile {
+  background-color: #fafaf1;
+  padding: 30px 10px;
+  border-radius: 5px;
+}
+
+#profiles .profile-box .profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 1px 15px 0 #1f26875e;
+}
+
+.pro-links {
+  margin-top: 10px;
+}
+
+.pro-links i {
+  padding: 10px 13px;
+  border: 1px solid #151564;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.pro-links i:hover {
+  background-color: #151564;
+  color: #fff;
+  border: 1px solid #151564;
+  cursor: pointer;
+}
+
+
+/* footer */
+footer {
+  padding: 8vw;
+   background-color: #181831;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+
+footer .foooter-col {
+  padding-bottom: 40px;
+}
+
+footer h3 {
+  color: #f1f9f5;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+footer li {
+  color: #7b838a;
+  list-style: none;
+  padding: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+footer li:hover {
+  color: #f1f9f5;
+}
+
+footer p {
+  color: #7b838a;
+}
+
+footer .subscribe {
+  margin-top: 20px;
+}
+
+footer input {
+  width: 228px;
+  padding: 15px 15px;
+  background: #334F6C;
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+
+footer .subscribe a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 12px 15px;
+  background-color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer .subscribe a.orange-btn {
+  background-color: #ffa500;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+footer .subscribe a.orange-btn:hover {
+  background-color: #ffffff;
+  color: #151564;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+footer .copyright p {
+  color: #ffffff;
+}
+
+footer .copyright .pro-links {
+  margin-top:  0px;
+}
+
+footer .copyright .pro-links i {
+  padding: 10px 13px;
+  background-color: #5f7185;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+footer .copyright .pro-links i:hover {
+  background-color: #ffa500;
 }
