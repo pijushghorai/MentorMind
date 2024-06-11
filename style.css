@@ -44,6 +44,22 @@ nav img {
   cursor: pointer;
 }
 
+nav .navigation {
+  display: flex;
+}
+
+nav .navigation .close {
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
+}
+
+nav .navigation .menu {
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
+}
+
 nav .navigation ul {
   display: flex;
   justify-content: flex-end;
@@ -377,6 +393,10 @@ footer li {
 
 footer li:hover {
   color: #f1f9f5;
+}
+
+footer h4 {
+  color: #ffffff;
 }
 
 footer p {
