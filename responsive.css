@@ -133,6 +133,11 @@
   #about-container .about-text p {
     text-align: center;
   }
+
+  /* Blogs */
+  #blog-container {
+    padding: 8vw 4vw;
+  }
 }
 
 @media (max-width: 450px) {
@@ -191,4 +196,17 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+
+  /* Blogs */
+  #blog-container {
+    flex-direction: column;
+  }
+
+  #blog-container .blogs {
+    width: 100%;
+  }
+
+  #blog-container .catagories {
+    width: 100%;
+}
 }

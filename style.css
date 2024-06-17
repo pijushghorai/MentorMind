@@ -564,4 +564,80 @@ footer .copyright .pro-links i:hover {
 }
 
 
+/* ---------------------------- */
+/* -----------blog------------- */
+/* ---------------------------- */
+#blog-home {
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(#0905364d, #05042eb3),
+    url("./assets/blog.jpg");
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+#blog-home h2 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+#blog-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8vw;
+}
+
+#blog-container .blogs {
+  width: 60%;
+}
+
+#blog-container .blogs img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#blog-container .blogs .post {
+  padding-bottom: 60px;
+}
+
+#blog-container .blogs .post h3 {
+  color: #151564;
+  padding: 15px 0 10px 0;
+}
+
+#blog-container .blogs .post p {
+  color: #413c3c ;
+  padding-bottom: 20px;
+}
+
+#blog-container .blogs .post a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  background-color: #151564;
+  color: #ffffff;
+  padding: 13px 35px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#blog-container .catagories {
+  width: 30%;
+}
+
+#blog-container .catagories h2 {
+  padding-bottom: 7px;
+}
+
+#blog-container .catagories a {
+  text-decoration: none;
+  color: #151313;
+  font-weight: 500;
+  line-height: 45px;
+}
