@@ -641,3 +641,154 @@ footer .copyright .pro-links i:hover {
   font-weight: 500;
   line-height: 45px;
 }
+
+
+/* ------------------------------------ */
+/* -----------Course Details----------- */
+/* ------------------------------------ */
+#courses-home {
+  width: 100%;
+  height: 8vh;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#course-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+
+#course-details h3 {
+  padding: 35px 0 25px 0;
+  color: #151564;
+}
+
+#course-details p {
+  color: #64626e;
+}
+
+#course-details hr {
+  height: 1px;
+  background-color: #808080;
+  margin-top: 40px;
+}
+
+#course-details .overview {
+  width: 70%;
+}
+
+#course-details .overview .c-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#course-details .overview .course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#course-details .overview .course-head .c-name {
+  width: 70%;
+}
+
+#course-details .overview .course-head .c-name h2 {
+  color: #151564;
+}
+
+#course-details .overview .course-head .c-name .star {
+  margin: 6px 0;
+}
+
+#course-details .overview .course-head span {
+  padding: 16px 13px;
+  background-color: #341e962e;
+  color: #4327c1;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#course-details .tutor {
+  display: flex;
+}
+
+#course-details .tutor-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#course-details .tutor img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#course-details .tutor h5 {
+  font-size: 15px;
+}
+
+#course-details .learn p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+#course-details .learn p i {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+#course-details .enroll {
+  width: 350px;
+  padding: 0 30px 30px 30px;
+  border-radius: 13px;
+  box-shadow: 0px 20px 40px 0 #0000001f;
+}
+
+#course-details .enroll h3 {
+  padding-bottom: 10px;
+}
+
+#course-details .enroll p {
+  font-size: 15px;
+  color: #808080;
+  margin: 15px 0;
+}
+
+#course-details .enroll i {
+  margin-right: 20px;
+  font-size: 15px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#course-details .enroll .enroll-btn {
+  padding: 25px 0 20px 0;
+  margin: auto;
+  text-align: center;
+}
+
+#course-details .enroll .enroll-btn a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 15px 45px;
+  background-color: #151564;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+}
