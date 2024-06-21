@@ -170,6 +170,12 @@
 #contact .getin {
   width: 260px;
 }
+
+
+  /* faq */
+  #faq .accordian {
+    width: 100%;
+  }
 }
 
 
@@ -264,5 +270,19 @@
 #contact .form {
   width: 100%;
   padding: 10px;
+}
+
+/* faq */
+.question {
+  padding: 15px;
+}
+
+.question h3 {
+  font-size: 0.9rem;
+}
+
+.answer p {
+  font-size: 0.9rem;
+  padding: 15px;
 }
 }
